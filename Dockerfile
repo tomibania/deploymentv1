@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM nginx:1.14.2
 RUN apt-get update -y
 RUN apt-get upgrade -y
 RUN apt-get install apache2 -y
