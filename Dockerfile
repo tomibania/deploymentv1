@@ -1,2 +1,2 @@
 FROM nginx:latest
-CMD ["echo", "Deployment of Nginx"]
+CMD ["echo", "Deployment of Nginx", "sleep", "infinity"]
