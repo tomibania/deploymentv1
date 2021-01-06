@@ -1,2 +1,2 @@
 FROM nginx:latest
-CMD ["echo", "Deployment of Nginx"]
+CMD ["/bin/bash", "echo", "Deployment of Nginx"]
