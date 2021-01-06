@@ -1,2 +1,2 @@
 FROM nginx:latest
-CMD ["echo", "Deployment of Alpine"]
+CMD ["echo", "Deployment of Nginx"]
